@@ -4,7 +4,7 @@ from collections import OrderedDict
 try:
     from torch.utils.tensorboard import SummaryWriter
 except:
-    print('you are using tensorboardX instead sis you have a too old pytorch version')
+    print('you are using tensorboardX')
     from tensorboardX import SummaryWriter
 
 
